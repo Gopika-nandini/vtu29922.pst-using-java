@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.26200.8875]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin>cd\
+
+C:\> D:
+
+D:\>javac BinarySearchExample.java
+
+D:\>java BinarySearchExample
+Enter the number of elements: 5
+Enter the sorted array elements:
+10 20 30 40 50
+Enter the element to search: 40
+Element found at index: 3
+
+D:\>

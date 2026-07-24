@@ -1,0 +1,31 @@
+Microsoft Windows [Version 10.0.26200.8875]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin>cd\
+
+C:\> D:
+
+D:\> javac main.java
+main.java:1: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+1 error
+
+D:\> javac public class main.java
+error: invalid flag: public
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+D:\> javac main.java
+main.java:1: error: class Main is public, should be declared in a file named Main.java
+public class Main {
+       ^
+1 error
+
+D:\> javac Main.java
+
+D:\>java Main
+Element at index 2 is 30
+
+D:\>
+
